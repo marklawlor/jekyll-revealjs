@@ -2,7 +2,7 @@
 title: Jekyll and Reveal.js
 
 # The Reveal theme
-reveal_theme: default.css
+reveal_theme: league.css
 
 # The Reveal transition
 reveal_transition: default
@@ -28,7 +28,6 @@ highlighter: true
 markdown_ext: ignoreme
 exclude: [
   _site/,
-  posts/,
   package.json,
   node_modules/,
   gulp/,
