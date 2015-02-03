@@ -1,5 +1,5 @@
 gulp.task('deploy', function () {
-  return gulp.src(['src/_site/**/*'])
+  return gulp.src('./_site/**/*')
     .pipe($.ghPages());
 });
 
