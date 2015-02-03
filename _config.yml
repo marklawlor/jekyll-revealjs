@@ -24,9 +24,11 @@ reveal_path: reveal.js/
 
 # Don't change anything below
 markdown: redcarpet
-pygments: true
+highlighter: true
 markdown_ext: ignoreme
 exclude: [
+  _site/,
+  posts/,
   package.json,
   node_modules/,
   gulp/,

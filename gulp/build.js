@@ -2,12 +2,12 @@ var fs = require('fs');
 var del = require('del');
 
 gulp.task('clean', function(cb){
- del(['_posts/**'], cb);        
+ del(['_slides/**'], cb);        
 });
 
 
 gulp.task('prefixPosts', ['clean'], function(){
-  return gulp.src("posts/*.md")
+  return gulp.src("slides/*.md")
     .pipe(gulp.dest("_posts"))
     .pipe($.map(function(file){
       var match = $.match(file.path, /\/\d\d-.*\.md$/);
