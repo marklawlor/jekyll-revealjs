@@ -26,4 +26,10 @@ reveal_path: reveal.js/
 markdown: redcarpet
 pygments: true
 markdown_ext: ignoreme
-
+exclude: [
+  package.json,
+  node_modules/,
+  gulp/,
+  gulpfile.js,
+  npm-debug.log
+]
