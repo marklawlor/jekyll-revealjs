@@ -1,0 +1,30 @@
+{
+  "name": "jekyll-revealjs",
+  "version": "1.0.0",
+  "description": "A Jekyll-based framework for creating presentations based on Reveal.js and markdown.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "del": "^1.1.1",
+    "gulp": "^3.8.10",
+    "gulp-gh-pages": "^0.4.0",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-map": "^0.0.2",
+    "gulp-match": "^0.2.1",
+    "gulp-shell": "^0.2.11",
+    "require-dir": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marklawlor/jekyll-revealjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marklawlor/jekyll-revealjs/issues"
+  },
+  "homepage": "https://github.com/marklawlor/jekyll-revealjs"
+}
