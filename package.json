@@ -7,6 +7,7 @@
     "gulp": "^3.8.10",
     "gulp-gh-pages": "^0.4.0",
     "gulp-load-plugins": "^0.8.0",
+    "gulp-shell": "^0.2.11",
     "require-dir": "^0.1.0"
   },
   "devDependencies": {},
